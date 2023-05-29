@@ -1,0 +1,16 @@
+{
+    "workbench.colorTheme": "Default Dark+",
+    "workbench.editor.decorations.colors": false,
+    "files.autoSave": "onWindowChange",
+    "editor.renderWhitespace": "all",
+    "workbench.activityBar.iconClickBehavior": "toggle",
+    "workbench.preferredDarkColorTheme": "Default Light+",
+    "workbench.preferredHighContrastColorTheme": "Default Light+",
+    "workbench.preferredLightColorTheme": "Visual Studio Light",
+    "editor.formatOnType": false,
+    "python.formatting.provider": "none",
+    "editor.formatOnSave": true,
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter"
+    }
+}

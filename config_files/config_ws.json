@@ -1,0 +1,50 @@
+{
+    "camera": {
+        "width_depth": 640,
+        "height_depth": 480,
+        "width_color": 640,
+        "height_color": 480,
+        "framerate": 30
+    },
+    "scan": {
+        "camera_angle_rot_x_d": -42.0,
+        "camera_angle_rot_y_d": 0.0,
+        "camera_angle_rot_z_d": 0.0,
+        "crop_outlier_points": 0.78,
+        "crop_turn_table": 0.12,
+        "rotation_step_angle": 30,
+        "voxel_size_turntable": 0.008,
+        "voxel_size_object": 0.001,
+        "min_fitness_score": 0.85
+    },
+    "mesh": {
+        "poisson_depth": 9,
+        "voxel_size": 0.0017,
+        "quantile_value": 0.09,
+        "number_nearest_neighbors_k": 100,
+        "filter_iterations": 30,
+        "save_folder_name": "mesh",
+        "save_format": ".ply"
+    },
+    "save_config": {
+        "base_folder": "data_set",
+        "point_cloud_folder": "point_cloud",
+        "point_cloud_format": ".ply",
+        "mesh_folder": "mesh",
+        "mesh_format": ".STL",
+        "depth_images_folder": "depth_images",
+        "depth_format": ".png",
+        "rgb_images_folder": "rgb_images",
+        "rgb_format": ".png",
+        "thermal_images_folder": "thermal_images",
+        "thermal_format": ".png",
+        "pose_folder": "poses",
+        "icp_file_name": "pose_icp.json",
+        "trajectory_file_name": "trajectory.json"
+    },
+    "visualization": {
+        "icp": true,
+        "sphere": true,
+        "coords": false
+    }
+}
